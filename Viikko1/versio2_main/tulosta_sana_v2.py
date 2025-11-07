@@ -1,4 +1,3 @@
-@@ -0,0 +1,19 @@
 # Pieni Python-ohjelma, joka lukee tiedoston ja tulostaa sen sisältämän sanan.
 # Tässä versiossa on main-funktio ja if __name__ == "__main__" -lohko.
 
@@ -18,3 +17,4 @@ def main():
 # kun tiedostoa ajetaan suoraan, ei tuotaessa moduulina.
 if __name__ == "__main__":
     main()
+    

@@ -1,3 +1,8 @@
+# Pieni Python-ohjelma, joka lukee tiedoston ja tulostaa sen sisältämän sanan.
+# Tässä versiossa on main-funktio, virheenkäsittely ja if __name__ == "__main__" -lohko.
+
+def main():
+    tiedosto = "sana.txt"
 
     try:
         # Avataan tiedosto ja luetaan sisältö
@@ -22,3 +27,4 @@
 
 if __name__ == "__main__":
     main()
+    
