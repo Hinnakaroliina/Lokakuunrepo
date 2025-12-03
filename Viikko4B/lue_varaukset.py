@@ -96,12 +96,10 @@ def varausten_kokonaistulot(varaukset: list):
     # Vahvistettujen varausten kokonaistulot: 243,50 €
     varaustenTulot = 0
     for varaus in varaukset[1:]:
-        if(varaus[8]):
-            vahvistetutVaraukset += 1
-        else:
-            eiVahvistetutVaraukset += 1
-    print(f"- Vahvistettujen varausten kokonaistulot: {varaustenTulot} €")
-    print() 
+        varaustenTulot += (varaus[7])
+
+    #print(f"- Vahvistettujen varausten kokonaistulot: {varaustenTulot} €")
+    print("Vahvistettujen varausten kokonaistulot:", f"{varaustenTulot: .2f}".replace('.',','),"€") 
 
 def main():
     # HUOM! seuraaville riveille ei tarvitse tehdä mitään osassa A!
