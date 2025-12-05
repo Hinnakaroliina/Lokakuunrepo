@@ -61,7 +61,7 @@ def main():
     print("             (pv.kk.vvvv)  v1      v2      v3            v1     v2     v3")
     print("---------------------------------------------------------------------------")
     maanantainlukemat = paivantiedot("13.10.2025", lukemat)
-    print(f"Maanantai   13.10.2025  ", f"{maanantainlukemat[0]:.2f}".replace('.', ','), end= "\t")
+    print(f"Maanantai   13.10.2025"  , f"{maanantainlukemat[0]:.2f}".replace('.', ','), end= "\t")
     print(f"{maanantainlukemat[1]:.2f}".replace('.', ','), end= "\t")
     print(f"{maanantainlukemat[2]:.2f}".replace('.', ','), end= "\t\t")
     print(f"{maanantainlukemat[3]:.2f}".replace('.', ','), end= "\t")
